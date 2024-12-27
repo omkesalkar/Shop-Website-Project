@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 20;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position:relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
+
+nav .logo{
+    height: 50px;
+    margin-left: -7%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 310px;
+    margin-right: -200px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    border-bottom: .1rem solid #fff;
+    padding-bottom: .5rem;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 140px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+    
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 1.7px #fff;
+    color: transparent;
+
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 23px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 100px;
+    margin-top: 0px;
+}
+
+.back-video{
+    position: absolute;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding:10px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+form button {
+    padding: 15px;
+    background: #363459;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button:hover {
+    background: #3c395e;
+    letter-spacing: .2rem;
+}
+
+h2{
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin-top: 2%;
+}
+
